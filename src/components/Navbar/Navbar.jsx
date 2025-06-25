@@ -39,7 +39,7 @@ const Navbar = ({ setShowLogin }) => {
           mobile-app
         </a>
         <a
-          href="footer"
+          href="#footer"
           onClick={() => setMenu("contact-us")}
           className={menu === "contact-us" ? "active" : ""}
         >
